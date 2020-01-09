@@ -1,0 +1,8 @@
+    <div *ngIf="unidadeFederativa">
+        <label>{{unidadeFederativa.id}}</label><br/>
+        <span>{{unidadeFederativa.name}}</span><br/>
+        <input [(ngModel)]="unidadeFederativa.name" placeholder="Nome"/><br/><br/>
+        <span>{{unidadeFederativa.sigla}}</span><br/>
+        <input [(ngModel)]="unidadeFederativa.sigla" placeholder="Sigla"/>    
+    </div>
+

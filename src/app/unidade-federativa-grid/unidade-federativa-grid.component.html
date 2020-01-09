@@ -1,0 +1,10 @@
+<ul class="app-unidade-federativa-grid">
+    <li *ngFor="let unidade of unidadesFederativas" (click)="onSelect(unidade)" >
+        <span class="badge">{{unidade.id}}</span>  {{unidade.name}}
+    </li>
+</ul>
+
+
+<app-unidade-federativa [unidadeFederativa]="unidadeFederativa">
+      
+</app-unidade-federativa>
